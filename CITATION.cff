@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this prototype, please cite the Kaggle Paper Track writeup."
+title: "Beyond Serialization: Evidence-Certified Graph Reasoning for Offline Gemma 4 Software Agents"
+authors:
+  - family-names: Kale
+    given-names: Keedar
+type: software
+version: 0.1.0
+date-released: 2026-11-12

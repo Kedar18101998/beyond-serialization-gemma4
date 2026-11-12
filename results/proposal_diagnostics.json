@@ -1,0 +1,178 @@
+{
+  "experimental_scope": "16 constructed Python fixtures; no LLM, GNN, or Kaggle scoring",
+  "synthetic_case_count": 16,
+  "baseline_lexical_top1": 4,
+  "baseline_witness_top1": 12,
+  "witness_without_test_id_top1": 4,
+  "witness_after_consistent_identifier_rename_top1": 12,
+  "genuine_paths_validated": 16,
+  "tampered_paths_rejected": 16,
+  "cautions": [
+    "Synthetic fixture distribution selected deliberately",
+    "Certificate check verifies graph edges, not causal influence",
+    "Renaming test rewrites exactly the low-level calculate symbol",
+    "No learned GNN or Gemma model was tested"
+  ],
+  "cases": [
+    {
+      "id": "case_01",
+      "depth": "implementation",
+      "original_witness_rank": 1,
+      "no_test_witness_rank": 3,
+      "renamed_witness_rank": 1,
+      "genuine_certificate_valid": true,
+      "tampered_certificate_rejected": true,
+      "certificate_length_edges": 2
+    },
+    {
+      "id": "case_02",
+      "depth": "implementation",
+      "original_witness_rank": 1,
+      "no_test_witness_rank": 3,
+      "renamed_witness_rank": 1,
+      "genuine_certificate_valid": true,
+      "tampered_certificate_rejected": true,
+      "certificate_length_edges": 2
+    },
+    {
+      "id": "case_03",
+      "depth": "implementation",
+      "original_witness_rank": 1,
+      "no_test_witness_rank": 3,
+      "renamed_witness_rank": 1,
+      "genuine_certificate_valid": true,
+      "tampered_certificate_rejected": true,
+      "certificate_length_edges": 2
+    },
+    {
+      "id": "case_04",
+      "depth": "implementation",
+      "original_witness_rank": 1,
+      "no_test_witness_rank": 3,
+      "renamed_witness_rank": 1,
+      "genuine_certificate_valid": true,
+      "tampered_certificate_rejected": true,
+      "certificate_length_edges": 2
+    },
+    {
+      "id": "case_05",
+      "depth": "implementation",
+      "original_witness_rank": 1,
+      "no_test_witness_rank": 3,
+      "renamed_witness_rank": 1,
+      "genuine_certificate_valid": true,
+      "tampered_certificate_rejected": true,
+      "certificate_length_edges": 2
+    },
+    {
+      "id": "case_06",
+      "depth": "implementation",
+      "original_witness_rank": 1,
+      "no_test_witness_rank": 3,
+      "renamed_witness_rank": 1,
+      "genuine_certificate_valid": true,
+      "tampered_certificate_rejected": true,
+      "certificate_length_edges": 2
+    },
+    {
+      "id": "case_07",
+      "depth": "implementation",
+      "original_witness_rank": 1,
+      "no_test_witness_rank": 3,
+      "renamed_witness_rank": 1,
+      "genuine_certificate_valid": true,
+      "tampered_certificate_rejected": true,
+      "certificate_length_edges": 2
+    },
+    {
+      "id": "case_08",
+      "depth": "implementation",
+      "original_witness_rank": 1,
+      "no_test_witness_rank": 3,
+      "renamed_witness_rank": 1,
+      "genuine_certificate_valid": true,
+      "tampered_certificate_rejected": true,
+      "certificate_length_edges": 2
+    },
+    {
+      "id": "case_09",
+      "depth": "implementation",
+      "original_witness_rank": 1,
+      "no_test_witness_rank": 3,
+      "renamed_witness_rank": 1,
+      "genuine_certificate_valid": true,
+      "tampered_certificate_rejected": true,
+      "certificate_length_edges": 2
+    },
+    {
+      "id": "case_10",
+      "depth": "implementation",
+      "original_witness_rank": 1,
+      "no_test_witness_rank": 3,
+      "renamed_witness_rank": 1,
+      "genuine_certificate_valid": true,
+      "tampered_certificate_rejected": true,
+      "certificate_length_edges": 2
+    },
+    {
+      "id": "case_11",
+      "depth": "implementation",
+      "original_witness_rank": 1,
+      "no_test_witness_rank": 3,
+      "renamed_witness_rank": 1,
+      "genuine_certificate_valid": true,
+      "tampered_certificate_rejected": true,
+      "certificate_length_edges": 2
+    },
+    {
+      "id": "case_12",
+      "depth": "implementation",
+      "original_witness_rank": 1,
+      "no_test_witness_rank": 3,
+      "renamed_witness_rank": 1,
+      "genuine_certificate_valid": true,
+      "tampered_certificate_rejected": true,
+      "certificate_length_edges": 2
+    },
+    {
+      "id": "case_13",
+      "depth": "entrypoint",
+      "original_witness_rank": 2,
+      "no_test_witness_rank": 1,
+      "renamed_witness_rank": 2,
+      "genuine_certificate_valid": true,
+      "tampered_certificate_rejected": true,
+      "certificate_length_edges": 1
+    },
+    {
+      "id": "case_14",
+      "depth": "entrypoint",
+      "original_witness_rank": 2,
+      "no_test_witness_rank": 1,
+      "renamed_witness_rank": 2,
+      "genuine_certificate_valid": true,
+      "tampered_certificate_rejected": true,
+      "certificate_length_edges": 1
+    },
+    {
+      "id": "case_15",
+      "depth": "entrypoint",
+      "original_witness_rank": 2,
+      "no_test_witness_rank": 1,
+      "renamed_witness_rank": 2,
+      "genuine_certificate_valid": true,
+      "tampered_certificate_rejected": true,
+      "certificate_length_edges": 1
+    },
+    {
+      "id": "case_16",
+      "depth": "entrypoint",
+      "original_witness_rank": 2,
+      "no_test_witness_rank": 1,
+      "renamed_witness_rank": 2,
+      "genuine_certificate_valid": true,
+      "tampered_certificate_rejected": true,
+      "certificate_length_edges": 1
+    }
+  ]
+}
